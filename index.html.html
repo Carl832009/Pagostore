@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PagoStore.online | ¡Los Diamantes Free Fire MÁS BARATOS y GRATIS! Recarga Rápida y Segura</title>
+    <!-- Descripción para SEO - Enfoque en precios bajos, diamantes gratis y confianza -->
+    <!-- Este sitio está optimizado para SEO y puede ser alojado en plataformas gratuitas como GitHub Pages o Netlify -->
+    <meta name="description" content="¡Recarga diamantes Free Fire al mejor precio y gana GRATIS con nuestro programa de referidos! PagoStore.online: rápido, 100% seguro y verificado en Facebook. Aceptamos USDT, PayPal, transferencias y pagos en Banrural.">
+    <meta name="keywords" content="Free Fire, diamantes Free Fire, recargas Free Fire, PagoStore, comprar diamantes, recarga diamantes, precios Free Fire, diamantes baratos, Free Fire Guatemala, recarga segura, Free Fire promo, diamantes gratis free fire, ganar diamantes gratis, referido free fire, free fire sin estafa, obtener diamantes gratis, diamantes más baratos, recargar free fire banrural, pago free fire paypal, free fire usdt, recargas guatemala">
+    <meta name="author" content="PagoStore.online">
+
+    <!-- Tailwind CSS CDN para estilos rápidos y responsivos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Fuente Inter para una mejor legibilidad */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a1a1a; /* Fondo oscuro global para la temática */
+        }
+        /* Estilo para simular un fondo de juego dinámico con colores de Free Fire */
+        .hero-background {
+            background: linear-gradient(to bottom right, #2c0b0b, #5a1414, #912727, #1a1a1a); /* Rojos oscuros, negros, para un ambiente más intenso */
+            animation: backgroundPulse 5s infinite alternate; /* Animación de pulsación */
+            border-image: linear-gradient(to right, #ff4500, #ff7a00, #ffba00) 1; /* Borde ardiente */
+            border-width: 4px;
+            border-style: solid;
+        }
+        /* Animación para el fondo del hero */
+        @keyframes backgroundPulse {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 100%; }
+        }
+        /* Animación para el mensaje de diamantes (más vibrante) */
+        .diamond-message {
+            animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both infinite; /* Efecto de temblor */
+        }
+        /* Animación de temblor para el mensaje */
+        @keyframes shake {
+            10%, 90% { transform: translate3d(-1px, 0, 0); }
+            20%, 80% { transform: translate3d(2px, 0, 0); }
+            30%, 70% { transform: translate3d(-4px, 0, 0); }
+            40%, 60% { transform: translate3d(4px, 0, 0); }
+            50% { transform: translate3d(-4px, 0, 0); }
+        }
+        /* Animación de fade-in */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        /* Efectos visuales de fondo que se asemejan a elementos del HUD o partículas */
+        .game-effect-shape {
+            background-color: rgba(255, 69, 0, 0.2); /* Naranja semi-transparente */
+            opacity: 0;
+            animation: floatAndFade 10s infinite ease-in-out;
+            border-radius: 50%; /* Por defecto redondo */
+        }
+        .game-effect-shape:nth-child(even) {
+            background-color: rgba(255, 200, 0, 0.2); /* Amarillo semi-transparente */
+            animation-delay: 2s;
+            border-radius: 0; /* Cuadrado */
+            transform: rotate(45deg);
+        }
+        .game-effect-shape:nth-child(3n) {
+            background-color: rgba(148, 0, 211, 0.2); /* Violeta semi-transparente */
+            animation-delay: 4s;
+            border-radius: 25%; /* Para formas más geométricas */
+        }
+
+        @keyframes floatAndFade {
+            0% { transform: translate(0, 0) scale(0.5); opacity: 0; }
+            25% { opacity: 0.8; }
+            50% { transform: translate(50px, 100px) scale(1.2); opacity: 0.5; }
+            75% { opacity: 0.3; }
+            100% { transform: translate(100px, 200px) scale(0.7); opacity: 0; }
+        }
+
+        /* Estilo para las imágenes de personaje y arma */
+        .player-image {
+            width: 120px; /* Tamaño por defecto */
+            height: 120px;
+            object-fit: contain; /* Asegura que la imagen se ajuste sin distorsionarse */
+            filter: drop-shadow(0 0 5px rgba(255,255,255,0.5)); /* Sombra para resaltar */
+        }
+        @media (min-width: 768px) {
+            .player-image {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        /* Estilo para los botones de WhatsApp */
+        .whatsapp-button {
+            background-color: #25D366; /* Color verde de WhatsApp */
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+        .whatsapp-button:hover {
+            background-color: #1DA851;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="text-white min-h-screen flex flex-col items-center">
+
+    <!-- Header - Encabezado del sitio -->
+    <header class="w-full bg-zinc-900 shadow-lg py-4 px-6 md:px-12 flex justify-between items-center z-50 fixed top-0">
+        <div class="flex items-center">
+            <span class="text-3xl font-bold text-orange-500 mr-2">🔥</span>
+            <h1 class="text-2xl md:text-3xl font-extrabold text-white">PagoStore.<span class="text-orange-500">online</span></h1>
+        </div>
+        <nav class="hidden md:flex space-x-6">
+            <a href="#hero" class="text-gray-300 hover:text-orange-400 font-semibold transition duration-300">Inicio</a>
+            <a href="#about" class="text-gray-300 hover:text-orange-400 font-semibold transition duration-300">Nosotros</a>
+            <a href="#recargas" class="text-gray-300 hover:text-orange-400 font-semibold transition duration-300">Recargas</a>
+            <a href="#diamantes-gratis" class="text-gray-300 hover:text-orange-400 font-semibold transition duration-300">Diamantes GRATIS</a>
+            <a href="#payment-methods" class="text-gray-300 hover:text-orange-400 font-semibold transition duration-300">Métodos de Pago</a>
+            <a href="#contact" class="text-gray-300 hover:text-orange-400 font-semibold transition duration-300">Contacto</a>
+        </nav>
+        <!-- Menú Hamburguesa para móviles, si se desea implementar más adelante -->
+        <button class="md:hidden text-white text-2xl">☰</button>
+    </header>
+
+    <main class="w-full pt-20"> <!-- Padding top para compensar el header fijo -->
+
+        <!-- Sección Principal (Hero) - Escena del jugador -->
+        <section id="hero" class="hero-background relative w-full h-[500px] md:h-[600px] flex flex-col items-center justify-center p-6 text-center shadow-inner-xl mb-12">
+            <div class="absolute inset-0 flex flex-wrap opacity-40">
+                <div class="game-effect-shape absolute w-16 h-16 top-10 left-5"></div>
+                <div class="game-effect-shape absolute w-20 h-20 bottom-10 right-8 delay-100"></div>
+                <div class="game-effect-shape absolute w-12 h-12 top-1/3 right-1/4 delay-200"></div>
+                <div class="game-effect-shape absolute w-24 h-24 bottom-1/4 left-1/3 delay-300"></div>
+            </div>
+
+            <div class="z-20 flex flex-col items-center justify-center h-full">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-yellow-300 drop-shadow-lg mb-4 animate-fade-in" style="text-shadow: 3px 3px 6px #000;">
+                    ¡Recarga Diamantes Free Fire al Mejor Precio!
+                </h1>
+                <p class="text-xl md:text-2xl font-semibold text-gray-200 mb-8 animate-fade-in delay-200">
+                    Rápido, Seguro y con <span class="text-orange-400">Ofertas Exclusivas</span> para ti.
+                </p>
+                <img src="https://placehold.co/180x180/000000/FFFFFF?text=PERSONAJE+FF" alt="Personaje de Free Fire" class="player-image animate-pulse mb-6 rounded-full border-4 border-red-500 shadow-lg">
+                <p class="text-lg md:text-xl font-bold text-center bg-gray-900 bg-opacity-70 rounded-lg px-4 py-2 shadow-xl animate-fade-in text-orange-200" style="text-shadow: 1px 1px 2px #000;">
+                    ¡No te quedes sin tu equipamiento!
+                </p>
+                <a href="#recargas" class="mt-8 bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 text-lg">
+                    ¡Ver Precios Exclusivos Ahora!
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección "Sobre Nosotros" y Confianza -->
+        <section id="about" class="py-16 px-4 md:px-12 bg-zinc-900 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-orange-400 mb-6">
+                Confianza y Seguridad: Nuestra Prioridad
+            </h2>
+            <p class="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
+                En PagoStore.online, sabemos lo importante que es la seguridad en tus recargas. Por eso, somos una **página verificada en Facebook**, lo que garantiza nuestra legitimidad y compromiso contigo. Operamos con total transparencia, facilitando tus recargas de Free Fire de manera confiable y eficiente, ¡para que solo te preocupes por ganar!
+            </p>
+            <div class="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-6 justify-center">
+                <img src="https://placehold.co/100x100/007bff/FFFFFF?text=META+VERIFIED" alt="Sello de Página Verificada de Facebook" class="w-24 h-24 rounded-full shadow-lg border-2 border-blue-500">
+                <a href="https://www.facebook.com/tupaginaverificada" target="_blank" rel="noopener noreferrer" 
+                   class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 flex items-center space-x-2">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M14 13.5h2.7l.3-3.099H14V7.5c0-.923.4-1.442 1.446-1.442H17V3.25C16.326 3.159 15.54 3.097 14.743 3.097c-2.39 0-3.926 1.432-3.926 4.077V10.5H8v3.099h2.817V22h3.183v-8.5z"/>
+                    </svg>
+                    <span>Visita Nuestro Facebook</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección de Recargas de Diamantes -->
+        <section id="recargas" class="py-16 px-4 md:px-12 bg-zinc-800 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-orange-400 mb-8">
+                ✨ Precios Exclusivos de Junio ✨
+            </h2>
+            <p class="text-center text-gray-300 mb-10 max-w-xl mx-auto">
+                Selecciona la cantidad de diamantes que deseas recargar y descubre cómo potenciar tu juego al mejor costo.
+            </p>
+
+            <!-- Contenedor de botones de diamantes -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12 w-full max-w-4xl mx-auto">
+                <!-- Botón para 110 diamantes -->
+                <button class="diamond-button bg-red-700 hover:bg-red-800 text-white font-bold py-4 px-4 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-600 focus:ring-opacity-50 border border-orange-400"
+                        data-diamonds="110" data-price="10.00">
+                    <span class="block text-2xl mb-1">110 Diamantes</span>
+                    <span class="block text-xl">Q10.00</span>
+                </button>
+                <!-- Botón para 341 diamantes -->
+                <button class="diamond-button bg-red-700 hover:bg-red-800 text-white font-bold py-4 px-4 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-600 focus:ring-opacity-50 border border-orange-400"
+                        data-diamonds="341" data-price="25.00">
+                    <span class="block text-2xl mb-1">341 Diamantes</span>
+                    <span class="block text-xl">Q25.00</span>
+                </button>
+                <!-- Botón para 572 diamantes -->
+                <button class="diamond-button bg-red-700 hover:bg-red-800 text-white font-bold py-4 px-4 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-600 focus:ring-opacity-50 border border-orange-400"
+                        data-diamonds="572" data-price="40.00">
+                    <span class="block text-2xl mb-1">572 Diamantes</span>
+                    <span class="block text-xl">Q40.00</span>
+                </button>
+                <!-- Botón para 1166 diamantes -->
+                <button class="diamond-button bg-red-700 hover:bg-red-800 text-white font-bold py-4 px-4 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-600 focus:ring-opacity-50 border border-orange-400"
+                        data-diamonds="1166" data-price="75.00">
+                    <span class="block text-2xl mb-1">1166 Diamantes</span>
+                    <span class="block text-xl">Q75.00</span>
+                </button>
+                <!-- Botón para 2398 diamantes -->
+                <button class="diamond-button bg-red-700 hover:bg-red-800 text-white font-bold py-4 px-4 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-600 focus:ring-opacity-50 border border-orange-400"
+                    data-diamonds="2398" data-price="150.00">
+                    <span class="block text-2xl mb-1">2398 Diamantes</span>
+                    <span class="block text-xl">Q150.00</span>
+                </button>
+                <!-- Botón para 6160 diamantes -->
+                <button class="diamond-button bg-red-700 hover:bg-red-800 text-white font-bold py-4 px-4 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-600 focus:ring-opacity-50 border border-orange-400"
+                    data-diamonds="6160" data-price="375.00">
+                    <span class="block text-2xl mb-1">6160 Diamantes</span>
+                    <span class="block text-xl">Q375.00</span>
+                </button>
+            </div>
+
+            <!-- Área de Información y Sugerencias de la IA -->
+            <div id="ideasOutput" class="mt-4 p-6 bg-zinc-900 rounded-lg w-full max-w-3xl mx-auto text-gray-200 text-center min-h-[150px] flex items-center justify-center break-words whitespace-pre-wrap flex-col border border-gray-700 shadow-inner">
+                <p>Al seleccionar un paquete de diamantes, verás el precio y obtendrás ideas de la IA para tus compras en el juego.</p>
+            </div>
+
+            <!-- Loading indicator -->
+            <div id="loadingIndicator" class="hidden mt-4 text-orange-400 flex items-center space-x-2">
+                <svg class="animate-spin h-6 w-6 text-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span>Generando ideas...</span>
+            </div>
+        </section>
+
+        <!-- Sección de Métodos de Pago -->
+        <section id="payment-methods" class="py-16 px-4 md:px-12 bg-gray-950 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-yellow-300 mb-8" style="text-shadow: 2px 2px 4px rgba(255,255,0,0.3);">
+                ¡Tú Eliges! Diversas Opciones de Pago Rápidas y Seguras
+            </h2>
+            <p class="text-lg text-gray-300 mb-10 max-w-3xl mx-auto">
+                En PagoStore.online, te ofrecemos la flexibilidad que necesitas para recargar tus diamantes. Contamos con las opciones de pago más convenientes y confiables:
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                <div class="p-6 bg-zinc-800 rounded-xl shadow-lg border border-gray-700 flex flex-col items-center">
+                    <img src="https://placehold.co/80x80/000000/FFFFFF?text=USDT" alt="Logo USDT" class="w-20 h-20 mb-4 object-contain">
+                    <h3 class="text-xl font-semibold text-orange-300 mb-2">USDT (Tether)</h3>
+                    <p class="text-gray-300 text-sm">Paga con criptomonedas de forma rápida y moderna.</p>
+                </div>
+                <div class="p-6 bg-zinc-800 rounded-xl shadow-lg border border-gray-700 flex flex-col items-center">
+                    <img src="https://placehold.co/80x80/000000/FFFFFF?text=PAYPAL" alt="Logo PayPal" class="w-20 h-20 mb-4 object-contain">
+                    <h3 class="text-xl font-semibold text-orange-300 mb-2">PayPal</h3>
+                    <p class="text-gray-300 text-sm">Tu monedero electrónico de confianza para transacciones seguras.</p>
+                </div>
+                <div class="p-6 bg-zinc-800 rounded-xl shadow-lg border border-gray-700 flex flex-col items-center">
+                    <img src="https://placehold.co/80x80/000000/FFFFFF?text=BANK+TRANSFER" alt="Icono Transferencia Bancaria" class="w-20 h-20 mb-4 object-contain">
+                    <h3 class="text-xl font-semibold text-orange-300 mb-2">Transferencias Bancarias</h3>
+                    <p class="text-gray-300 text-sm">Directo desde tu banco, una opción tradicional y segura.</p>
+                </div>
+                <div class="p-6 bg-zinc-800 rounded-xl shadow-lg border border-gray-700 flex flex-col items-center">
+                    <img src="https://placehold.co/80x80/000000/FFFFFF?text=BANRURAL" alt="Logo Banrural" class="w-20 h-20 mb-4 object-contain">
+                    <h3 class="text-xl font-semibold text-orange-300 mb-2">Depósitos en Cajas Banrural</h3>
+                    <p class="text-gray-300 text-sm">
+                        ¡La opción preferida! <strong class="text-yellow-300">Casi todos nuestros clientes pagan fácil y rápido en cualquier caja Banrural de todo el país.</strong>
+                    </p>
+                </div>
+            </div>
+
+            <p class="text-lg text-gray-300 mt-12 max-w-3xl mx-auto">
+                ¿Listo para recargar con tu método favorito? ¡Haz clic en tu paquete de diamantes o contáctanos para más detalles!
+            </p>
+            <a href="#recargas" class="mt-8 bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 text-lg">
+                ¡Recargar Diamantes Ahora!
+            </a>
+        </section>
+
+        <!-- Sección "Cómo Obtener Diamantes GRATIS" -->
+        <section id="diamantes-gratis" class="py-16 px-4 md:px-12 bg-zinc-800 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-green-400 mb-8" style="text-shadow: 2px 2px 4px rgba(0,255,0,0.3);">
+                ¡Gana Diamantes Free Fire GRATIS de Verdad con PagoStore.online!
+            </h2>
+            <p class="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
+                ¿Cansado de promesas falsas y apps que solo te roban tiempo y datos? En internet abundan métodos "milagrosos" para obtener diamantes gratis, pero la verdad es que la mayoría son estafas que solo buscan robarte información o llenarte de basura digital.
+                <br><strong class="text-yellow-300">¡Aquí en PagoStore.online te contamos la ÚNICA forma real y segura de ganar diamantes sin costo!</strong>
+            </p>
+
+            <div class="flex flex-col md:flex-row justify-center items-start space-y-8 md:space-y-0 md:space-x-12 max-w-4xl mx-auto mb-10">
+                <div class="flex-1 p-6 bg-zinc-900 rounded-xl shadow-lg border border-gray-700">
+                    <span class="text-5xl mb-4 block">🤝</span>
+                    <h3 class="text-2xl font-semibold text-orange-300 mb-3">Programa de Referidos Exclusivo</h3>
+                    <p class="text-gray-300">
+                        En PagoStore.online, valoramos tu confianza y queremos premiar tu lealtad. Por eso, hemos creado un programa de referencias exclusivo para nuestros clientes más fieles. ¡Es muy simple!
+                    </p>
+                </div>
+                <div class="flex-1 p-6 bg-zinc-900 rounded-xl shadow-lg border border-gray-700">
+                    <span class="text-5xl mb-4 block">🎁</span>
+                    <h3 class="text-2xl font-semibold text-orange-300 mb-3">¡Diamantes GRATIS por Cada Referido!</h3>
+                    <p class="text-gray-300">
+                        Por cada compra de **Q100.00 en adelante** que realice tu referido, te regalaremos **110 diamantes Free Fire** directamente en tu cuenta. ¡Así de fácil y sin complicaciones!
+                    </p>
+                </div>
+            </div>
+
+            <p class="text-xl text-yellow-200 font-bold mb-8 max-w-3xl mx-auto">
+                Esta es la única forma transparente y segura de obtener diamantes gratis, avalada por nuestra trayectoria y la confianza de nuestros clientes.
+            </p>
+
+            <a href="https://wa.me/TUNUMERODEWHATSAPP?text=Hola%2C%20quiero%20saber%20sobre%20el%20Programa%20de%20Referidos%20de%20Diamantes%20Gratis." target="_blank" rel="noopener noreferrer" 
+               class="whatsapp-button inline-flex items-center space-x-3 px-8 py-4 rounded-full font-bold text-lg shadow-xl animate-bounce" data-referral="true">
+                <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.04 2C7.34 2 3.58 5.76 3.58 10.46c0 1.95.66 3.8 1.83 5.31L3 22l6.44-1.72c1.4-.29 2.87-.44 4.6-.44 4.7 0 8.46-3.76 8.46-8.46S16.74 2 12.04 2zm0 15.6c-1.43 0-2.8-.39-4.03-1.1L6.11 16.6l-.53 1.63 1.77-.47c1.13.68 2.45 1.05 3.89 1.05 3.73 0 6.76-3.03 6.76-6.76s-3.03-6.76-6.76-6.76-6.76 3.03-6.76 6.76c0 3.73 3.03 6.76 6.76 6.76zm-1.88-5.38h-.02c-.22 0-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c.02-.05.1-.1.2-.1.1-.03.22-.05.32-.05h.02c.07 0 .1-.02.15-.02.22-.1.54-.25.54-.25s-.17-.07.24-.07c.07 0 .1-.02.1-.02l.05-.02c.05-.02.1-.03.15-.03h.02c.07 0 .1-.02.15-.02.2-.07.3-.1.4-.1.12 0 .17.02.17.02l.1.02c.05.02.1.03.15.03h.02c.07 0 .1-.02.15-.02-.22-.05-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c-.02-.05-.1-.1-.2-.1-.1-.03-.22-.05-.32-.05h-.02c-.07 0-.1-.02-.15-.02-.22-.1-.54-.25-.54-.25s-.17-.07-.24-.07c-.07 0-.1-.02-.1-.02l-.05-.02c-.05-.02-.1-.03-.15-.03h-.02c-.07 0-.1-.02-.15-.02-.2-.07-.3-.1-.4-.1-.12 0-.17.02-.17.02l-.1.02c-.05.02-.1.03-.15.03h-.02c-.07 0-.1-.02-.15-.02-.22-.05-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c0 .02.02.05.05.07.03.02.07.05.1.07.03.02.05.02.05.02z"/>
+                </svg>
+                <span>¡Quiero Saber Más del Programa de Referidos!</span>
+            </a>
+            <p class="text-sm text-gray-500 mt-4">
+                (Recuerda reemplazar "TUNUMERODEWHATSAPP" con tu número de teléfono real.)
+            </p>
+        </section>
+
+        <!-- Sección "Cómo Recargar" (Ahora después de Diamantes Gratis, para mantener flujo lógico) -->
+        <section id="how-to-recharge" class="py-16 px-4 md:px-12 bg-zinc-800 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-orange-400 mb-8">
+                ¡Recargar es Súper Fácil!
+            </h2>
+            <div class="flex flex-col md:flex-row justify-center items-start space-y-8 md:space-y-0 md:space-x-12 max-w-4xl mx-auto">
+                <div class="flex-1 p-6 bg-zinc-900 rounded-xl shadow-lg border border-gray-700">
+                    <span class="text-5xl mb-4 block">🎮</span>
+                    <h3 class="text-2xl font-semibold text-yellow-300 mb-3">Paso 1: Tu ID de Jugador</h3>
+                    <p class="text-gray-300">
+                        Todas nuestras recargas se realizan de forma segura **a través de tu ID de Free Fire**. ¡Así de simple, sin necesidad de contraseñas!
+                    </p>
+                </div>
+                <div class="flex-1 p-6 bg-zinc-900 rounded-xl shadow-lg border border-gray-700">
+                    <span class="text-5xl mb-4 block">💬</span>
+                    <h3 class="text-2xl font-semibold text-yellow-300 mb-3">Paso 2: Contáctanos por WhatsApp</h3>
+                    <p class="text-gray-300">
+                        Para aprovechar la promoción y realizar tu recarga, escríbenos a nuestro WhatsApp y **coloca la frase "Quiero la promoción de junio"**.
+                    </p>
+                </div>
+            </div>
+            <a href="https://wa.me/TUNUMERODEWHATSAPP?text=Quiero%20la%20promoción%20de%20junio" target="_blank" rel="noopener noreferrer" 
+               class="whatsapp-button mt-12 inline-flex items-center space-x-3 px-8 py-4 rounded-full font-bold text-lg shadow-xl animate-bounce">
+                <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.04 2C7.34 2 3.58 5.76 3.58 10.46c0 1.95.66 3.8 1.83 5.31L3 22l6.44-1.72c1.4-.29 2.87-.44 4.6-.44 4.7 0 8.46-3.76 8.46-8.46S16.74 2 12.04 2zm0 15.6c-1.43 0-2.8-.39-4.03-1.1L6.11 16.6l-.53 1.63 1.77-.47c1.13.68 2.45 1.05 3.89 1.05 3.73 0 6.76-3.03 6.76-6.76s-3.03-6.76-6.76-6.76-6.76 3.03-6.76 6.76c0 3.73 3.03 6.76 6.76 6.76zm-1.88-5.38h-.02c-.22 0-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c.02-.05.1-.1.2-.1.1-.03.22-.05.32-.05h.02c.07 0 .1-.02.15-.02.22-.1.54-.25.54-.25s-.17-.07.24-.07c.07 0 .1-.02.1-.02l.05-.02c.05-.02.1-.03.15-.03h.02c.07 0 .1-.02.15-.02.2-.07.3-.1.4-.1.12 0 .17.02.17.02l.1.02c.05.02.1.03.15.03h.02c.07 0 .1-.02.15-.02-.22-.05-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c-.02-.05-.1-.1-.2-.1-.1-.03-.22-.05-.32-.05h-.02c-.07 0-.1-.02-.15-.02-.22-.1-.54-.25-.54-.25s-.17-.07-.24-.07c-.07 0-.1-.02-.1-.02l-.05-.02c-.05-.02-.1-.03-.15-.03h-.02c-.07 0-.1-.02-.15-.02-.2-.07-.3-.1-.4-.1-.12 0-.17.02-.17.02l-.1.02c-.05.02-.1.03-.15.03h-.02c-.07 0-.1-.02-.15-.02-.22-.05-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c0 .02.02.05.05.07.03.02.07.05.1.07.03.02.05.02.05.02z"/>
+                </svg>
+                <span>¡Enviar WhatsApp Ahora!</span>
+            </a>
+            <p class="text-sm text-gray-500 mt-4">
+                (Recuerda reemplazar "TUNUMERODEWHATSAPP" con tu número de teléfono real.)
+            </p>
+        </section>
+
+        <!-- Sección de Contacto y Redes Sociales -->
+        <section id="contact" class="py-16 px-4 md:px-12 bg-zinc-900 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-orange-400 mb-8">
+                ¿Preguntas? ¡Contáctanos!
+            </h2>
+            <p class="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
+                Estamos aquí para ayudarte. Si tienes alguna duda sobre tu recarga o los precios, no dudes en escribirnos.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
+                <a href="https://www.facebook.com/tupaginaverificada" target="_blank" rel="noopener noreferrer" 
+                   class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 flex items-center space-x-3">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M14 13.5h2.7l.3-3.099H14V7.5c0-.923.4-1.442 1.446-1.442H17V3.25C16.326 3.159 15.54 3.097 14.743 3.097c-2.39 0-3.926 1.432-3.926 4.077V10.5H8v3.099h2.817V22h3.183v-8.5z"/>
+                    </svg>
+                    <span>Encuéntranos en Facebook</span>
+                </a>
+                <a href="https://wa.me/TUNUMERODEWHATSAPP" target="_blank" rel="noopener noreferrer" 
+                   class="whatsapp-button inline-flex items-center space-x-3 px-6 py-3 rounded-full font-bold shadow-lg transform hover:scale-105">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12.04 2C7.34 2 3.58 5.76 3.58 10.46c0 1.95.66 3.8 1.83 5.31L3 22l6.44-1.72c1.4-.29 2.87-.44 4.6-.44 4.7 0 8.46-3.76 8.46-8.46S16.74 2 12.04 2zm0 15.6c-1.43 0-2.8-.39-4.03-1.1L6.11 16.6l-.53 1.63 1.77-.47c1.13.68 2.45 1.05 3.89 1.05 3.73 0 6.76-3.03 6.76-6.76s-3.03-6.76-6.76-6.76-6.76 3.03-6.76 6.76c0 3.73 3.03 6.76 6.76 6.76zm-1.88-5.38h-.02c-.22 0-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c.02-.05.1-.1.2-.1.1-.03.22-.05.32-.05h.02c.07 0 .1-.02.15-.02.22-.1.54-.25.54-.25s-.17-.07.24-.07c.07 0 .1-.02.1-.02l.05-.02c.05-.02.1-.03.15-.03h.02c.07 0 .1-.02.15-.02.2-.07.3-.1.4-.1.12 0 .17.02.17.02l.1.02c.05.02.1.03.15.03h.02c.07 0 .1-.02.15-.02-.22-.05-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c-.02-.05-.1-.1-.2-.1-.1-.03-.22-.05-.32-.05h-.02c-.07 0-.1-.02-.15-.02-.22-.1-.54-.25-.54-.25s-.17-.07-.24-.07c-.07 0-.1-.02-.1-.02l-.05-.02c-.05-.02-.1-.03-.15-.03h-.02c-.07 0-.1-.02-.15-.02-.2-.07-.3-.1-.4-.1-.12 0-.17.02-.17.02l-.1.02c-.05.02-.1.03-.15.03h-.02c-.07 0-.1-.02-.15-.02-.22-.05-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c0 .02.02.05.05.07.03.02.07.05.1.07.03.02.05.02.05.02z"/>
+                    </svg>
+                    <span>WhatsApp Directo</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer - Pie de página -->
+    <footer class="w-full bg-zinc-900 py-6 px-4 md:px-12 text-center text-gray-500 text-sm">
+        <p>&copy; 2024 PagoStore.online. Todos los derechos reservados.</p>
+        <p class="mt-2">Free Fire es una marca registrada de Garena International. Este sitio es un servicio independiente.</p>
+        <p class="mt-2">
+            <a href="#" class="text-gray-400 hover:text-orange-400">Política de Privacidad</a> | 
+            <a href="#" class="text-gray-400 hover:text-orange-400">Términos y Condiciones</a>
+        </p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const diamondButtons = document.querySelectorAll('.diamond-button');
+            const ideasOutput = document.getElementById('ideasOutput');
+            const loadingIndicator = document.getElementById('loadingIndicator');
+
+            // Replace "TUNUMERODEWHATSAPP" with your actual WhatsApp number
+            // For example: const whatsappNumber = "50255551234";
+            const whatsappNumber = "502xxxxxxxx"; // ¡IMPORTANTE! Reemplaza esto con tu número real
+            
+            // Update WhatsApp links with the actual number
+            document.querySelectorAll('a[href*="TUNUMERODEWHATSAPP"]').forEach(link => {
+                link.href = link.href.replace('TUNUMERODEWHATSAPP', whatsappNumber);
+            });
+
+            diamondButtons.forEach(button => {
+                button.addEventListener('click', async (event) => {
+                    const diamonds = event.currentTarget.dataset.diamonds;
+                    const price = event.currentTarget.dataset.price;
+
+                    ideasOutput.innerHTML = `
+                        <p class="text-xl md:text-2xl font-bold text-green-400 mb-2">
+                            ¡Has seleccionado ${diamonds} diamantes por Q${parseFloat(price).toFixed(2)}!
+                        </p>
+                        <p class="text-lg text-gray-300 mb-4">
+                            Para realizar el pago y obtener tus diamantes, envía la frase "Quiero la promoción de junio"
+                            a nuestro WhatsApp oficial. ¡Es rápido y seguro!
+                        </p>
+                        <a href="https://wa.me/${whatsappNumber}?text=Quiero%20la%20promoción%20de%20junio%20para%20${diamonds}%20diamantes" target="_blank" rel="noopener noreferrer" 
+                           class="whatsapp-button inline-flex items-center space-x-2 px-6 py-3 rounded-full font-bold text-base shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12.04 2C7.34 2 3.58 5.76 3.58 10.46c0 1.95.66 3.8 1.83 5.31L3 22l6.44-1.72c1.4-.29 2.87-.44 4.6-.44 4.7 0 8.46-3.76 8.46-8.46S16.74 2 12.04 2zm0 15.6c-1.43 0-2.8-.39-4.03-1.1L6.11 16.6l-.53 1.63 1.77-.47c1.13.68 2.45 1.05 3.89 1.05 3.73 0 6.76-3.03 6.76-6.76s-3.03-6.76-6.76-6.76-6.76 3.03-6.76 6.76c0 3.73 3.03 6.76 6.76 6.76zm-1.88-5.38h-.02c-.22 0-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c.02-.05.1-.1.2-.1.1-.03.22-.05.32-.05h.02c.07 0 .1-.02.15-.02.22-.1.54-.25.54-.25s-.17-.07.24-.07c.07 0 .1-.02.1-.02l.05-.02c.05-.02.1-.03.15-.03h.02c.07 0 .1-.02.15-.02.2-.07.3-.1.4-.1.12 0 .17.02.17.02l.1.02c.05.02.1.03.15.03h.02c.07 0 .1-.02.15-.02-.22-.05-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c-.02-.05-.1-.1-.2-.1-.1-.03-.22-.05-.32-.05h-.02c-.07 0-.1-.02-.15-.02-.22-.1-.54-.25-.54-.25s-.17-.07-.24-.07c-.07 0-.1-.02-.1-.02l-.05-.02c-.05-.02-.1-.03-.15-.03h-.02c-.07 0-.1-.02-.15-.02-.2-.07-.3-.1-.4-.1-.12 0-.17.02-.17.02l-.1.02c-.05.02-.1.03-.15.03h-.02c-.07 0-.1-.02-.15-.02-.22-.05-.32-.1-.47-.28-.15-.17-.55-.65-.55-.65s-.1-.1-.07-.15c0 .02.02.05.05.07.03.02.07.05.1.07.03.02.05.02.05.02z"/>
+                            </svg>
+                            <span>¡Recargar Ahora vía WhatsApp!</span>
+                        </a>
+                    `;
+                    loadingIndicator.classList.remove('hidden');
+
+                    const prompt = `Sugiere 3 ideas creativas y emocionantes de qué comprar en Free Fire con aproximadamente ${diamonds} diamantes, incluyendo skins de personajes, de armas, emotes o bundles. Sé conciso y usa un lenguaje atractivo para un gamer. Presenta cada idea con un nombre y una breve descripción. Ejemplo: 'Skin Épica de Personaje: Transforma tu personaje con este atuendo legendario.'`;
+                    
+                    let chatHistory = [];
+                    chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                    const payload = { contents: chatHistory };
+                    const apiKey = ""; // Canvas will provide this at runtime
+
+                    try {
+                        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+                        const response = await fetch(apiUrl, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(payload)
+                        });
+
+                        const result = await response.json();
+                        
+                        if (result.candidates && result.candidates.length > 0 &&
+                            result.candidates[0].content && result.candidates[0].content.parts &&
+                            result.candidates[0].content.parts.length > 0) {
+                            const text = result.candidates[0].content.parts[0].text;
+                            ideasOutput.innerHTML += `
+                                <p class="text-xl md:text-2xl font-bold text-yellow-300 mt-6 mb-2">
+                                    ✨ ¡Y aquí tienes algunas ideas de la IA para tus ${diamonds} diamantes! ✨
+                                </p>
+                                <p class="text-base text-gray-200">${text}</p>
+                            `;
+                        } else {
+                            ideasOutput.innerHTML += "<p class='text-red-400 mt-4'>No se pudieron generar ideas de la IA. Intenta de nuevo.</p>";
+                            console.error("Unexpected API response structure:", result);
+                        }
+                    } catch (error) {
+                        ideasOutput.innerHTML += "<p class='text-red-400 mt-4'>Error al conectar con la IA. Por favor, intenta de nuevo más tarde.</p>";
+                        console.error("Error fetching from Gemini API:", error);
+                    } finally {
+                        loadingIndicator.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
